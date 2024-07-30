@@ -4,7 +4,7 @@
 void main(){
 	printf("##########Console-output###\n");
 
-	int i,n, fact = 1;
+	unsigned int i,n, fact = 1;
 
 
 	printf("Enter a number: ");
@@ -19,7 +19,7 @@ void main(){
 	for(i = 1; i <= n; i++){
 		fact*=i;
 	}
-	printf("fact = %i", fact);
+	printf("fact = %u", fact);
 	printf("\n###########################\n");
 	printf("\n\n########################################################################");
 }

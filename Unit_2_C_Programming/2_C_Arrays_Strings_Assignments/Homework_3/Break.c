@@ -3,7 +3,10 @@
 
 int main(void){
     printf("##########Console-output###\n");
-
+    switch(){
+        case:
+        default:
+    }
     float num, average, sum=0;
     int i, n;
     

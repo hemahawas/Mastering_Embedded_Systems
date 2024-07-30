@@ -6,7 +6,7 @@ void main(){
 
 	char c;
 
-	printf("please enter two numbers: ");
+	printf("please enter character: ");
 	fflush(stdin); fflush(stdout);
 	scanf("%c", &c);
 

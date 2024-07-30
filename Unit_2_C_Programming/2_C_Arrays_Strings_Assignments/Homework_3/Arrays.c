@@ -78,10 +78,28 @@ int main(void){
 	for(i = 0; i < n_col; i++){
 		for(j = 0; j < n_row; j++){
 			transpose[i][j] = arr[j][i];
-			printf("%d  ", transpose[i][j]);
+
 		}
 		printf("\n");
 	}
+
+	printf("\nArray:\n");
+	for(i = 0; i < n_col; i++){
+			for(j = 0; j < n_row; j++){
+				printf("%d  ", arr[i][j]);
+			}
+			printf("\n");
+		}
+
+	printf("\nTranspose:\n");
+
+	for(i = 0; i < n_col; i++){
+			for(j = 0; j < n_row; j++){
+				printf("%d  ", transpose[i][j]);
+			}
+			printf("\n");
+		}
+
 	 */
 
 	/************************** 	Arrays : insert element ************************/
